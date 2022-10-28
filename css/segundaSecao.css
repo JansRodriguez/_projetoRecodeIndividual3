@@ -1,0 +1,128 @@
+.segundaSessao p{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Candara';
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 25px;
+}   
+
+.segundaSessao a{
+    text-decoration: none;
+}
+#album-fotos{
+    list-style: none;
+    margin: 0;
+    padding: 10px 50px;
+    overflow: hidden;
+}
+ul#album-fotos li{
+    float: left;
+    width: 250px;
+    height: 250px;
+    border: 1px solid antiquewhite;
+    margin: 30px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    -webkit-transition: all .4s ease-in;
+}
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
+ul#album-fotos li#foto01{
+    background: url('../fotosSegunda/primeira.jpeg') no-repeat; 
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#album-fotos li#foto01:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02{
+    background: url('../fotosSegunda/segunda.webp') no-repeat;
+    background-position: 50% 50%;
+    background-size: 600px 337px;
+}
+ul#album-fotos li#foto02:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03{
+    background: url('../fotosSegunda/terceira.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 300px;
+}
+ul#album-fotos li#foto03:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04{
+    background: url('../fotosSegunda/quarta.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 266px;
+}
+ul#album-fotos li#foto04:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05{
+    background: url('../fotosSegunda/quinta.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 291px;
+}
+ul#album-fotos li#foto05:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06{
+    background: url('../fotosSegunda/sexta.webp') no-repeat;
+    background-position: 50% 50%;
+    background-size: 697px 348px;
+}
+ul#album-fotos li#foto06:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto07{
+    background: url('../fotosSegunda/setima.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 291px;
+}
+ul#album-fotos li#foto07:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto08{
+    background: url('../fotosSegunda/oitava.jfif') no-repeat;
+    background-position: 50% 50%;
+    background-size: 697px 348px;
+}
+ul#album-fotos li#foto08:hover{
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li span{
+    opacity: 0;
+    color: bisque;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 18px;
+    line-height: 400px;
+    padding: 5px;
+    font-family: 'Arial Narrow';
+}
+
+@media (max-width: 737px){
+    ul#album-fotos li{
+        width: 150px;
+        height: 150px;
+    }
+    ul#album-fotos li:hover span{
+        opacity: 0;
+    }
+}

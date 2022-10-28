@@ -1,0 +1,34 @@
+Tabelas:
+1. Cliente:
+	nome
+	cpf (KP)
+	rg
+	e-mail
+	idade
+	
+2. Contato
+	email (KP)
+	nome
+	assunto
+	
+3. Passagem
+	idDestino (KP)
+	dataDaViagem
+	dataDoRetorno
+	PassagemOrigem
+	PassagemDestino
+	valor
+	numeroDePassageiros
+	tipoDaPassagem (ida e volta, Ida)
+
+4. Promoções
+	idSolicitação
+	nome
+	email
+	destinoDesejado (varias seleções)
+	quantidadeDias
+	
+	
+	
+	
+	

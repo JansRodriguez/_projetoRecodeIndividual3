@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Arrial Narrow';
+}
+body {background-image: url(../fotos/primeira.jpg); background-repeat: no-repeat;}
+
+.segundaSessao{background-image: url("https://images.immediate.co.uk/production/volatile/sites/25/2020/04/Things-never-knew-astronomy-e454e5d.jpg");background-repeat: no-repeat;}
+
+.redeS{height: 60px; margin: 0; text-align: right; padding: 60px; color: rgb(250, 250, 250);}
+
+nav img{margin: 5px;}
+
+.nav-link, .btn{color: rgb(245, 239, 236); font-weight: bold;}
+.nav-link{font-size: 2rem;}
+
+.row{color: aliceblue;}
+
+.card{width: 243px; margin: 5px; color: rgb(82, 80, 80); text-align: justify;}
+
+.footer .row{text-align: center;}
+.footer a{text-decoration: none; color: bisque;}
+
+/*Formulário de Passagem*/
+.formulario-passagem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: linear-gradient(rgb(97, 44, 44), rgb(161, 161, 161));
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.formulario-passagem label {
+    margin-left: 3px;
+    font-weight: bold;
+    color: seashell;
+}
+.formulario-passagem input {
+    margin-right: 2px;
+    border-radius: 7px;
+    border: none;
+    padding: 3px;
+
+}
+
+.botao {
+    margin: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+}
+
+.botao:hover {
+    background-image: linear-gradient(gold, yellow);
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+#origem {
+    border-radius: 7px 0 0 7px;
+    padding: 3px;
+    margin: 0;
+}
+
+#destino {
+    border-radius: 0 7px 7px 0;
+    padding: 3px;
+    margin: 0;
+}
+
+#passageiros {
+    height: 30px;
+    width: 40px;
+}
+/*Formulário Promoções*/
+.containerPromocoes{
+    width: 40%;
+    margin: auto;
+    color: rgb(97, 44, 44);
+}
+.containerPromocoes label{
+    font-weight: 900;
+    background-color: rgb(133, 124, 124);
+    border-radius: 5px;
+    opacity: .7;
+}
+.containerPromocoes .submit{
+    width: 200px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.4em;
+}
+.containerPromocoes:hover .submit{
+    background-color: brown;
+    transition: .4s;
+    color: aliceblue;
+}
+/*Formulário Contato*/
+.containerContato{
+    width: 40%;
+    margin: auto;
+    color: rgb(97, 44, 44);
+}
+.containerContato label{
+    font-weight: 900;
+    background-color: rgb(133, 124, 124);
+    border-radius: 5px;
+    opacity: .7;
+}
+.containerContato input textarea{
+    border: none;
+    border-radius: 15px;
+}
+.containerContato .submit{
+    width: 200px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.4em;
+}
+.containerContato:hover .submit{
+    background-color: brown;
+    transition: .4s;
+    color: aliceblue;
+}
+/*Medias Queries*/
+@media (max-width: 1140px){
+    .nav-link, .btn{color: darkorange; font-weight: bold; font-size: 1.2rem;}
+    .card{width: 30%; margin: 10px;}
+}
+@media (max-width: 1090px){
+    .card{width: 30%; margin: 10px;}
+}
+@media (max-width: 995px){
+    .card{width: 200px; margin: 0px;}
+    .col-4{font-size: 8px; color: rgb(255, 255, 255); font-weight: normal;}
+    h1{font-size: 14px;}
+    h3{font-size: 12px;}
+}
+@media (max-width: 928px){
+    .card{width: 30%; margin: 8px; text-align: center; padding: 3px; margin: 0;}
+    .container-xl h4{font-size: 80%; margin: 0; padding: 0;}
+    .card-title{font-size: 70%; margin: 0; padding: 0;}
+    .card-text{font-size: 70%; margin: 0; padding: 0;}
+}
