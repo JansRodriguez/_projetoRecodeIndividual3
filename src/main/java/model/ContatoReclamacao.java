@@ -4,7 +4,7 @@ public class ContatoReclamacao {
 		
 		private int IdContatoReclamacao;
 		private String email;
-		private String nome;
+		private String assunto;
 		private String cpf;
 		
 		public int getIdContatoReclamacao() {
@@ -21,11 +21,11 @@ public class ContatoReclamacao {
 			this.email = email;
 		}
 		
-		public String getNome() {
-			return nome;
+		public String getAssunto() {
+			return assunto;
 		}
-		public void setNome(String nome){
-			   this.nome = nome;
+		public void setNome(String assunto){
+			   this.assunto = assunto;
 			}
 		public String getCpf() {
 			return cpf;

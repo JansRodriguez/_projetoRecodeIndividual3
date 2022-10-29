@@ -87,7 +87,7 @@ public class ClienteDAO {
 	}
 
 	public void update(Cliente cliente) {
-		String sql = "UPDATE Cliente SET Nome = ?, Cpf = ?, Endereco = ?" + "WHERE Id_cliente = ?";
+		String sql = "UPDATE Cliente SET Nome = ?, Cpf = ?" + "WHERE Id_cliente = ?";
 		try {
 			conn = Conexao.creatConnectiontoMySQL();
 
