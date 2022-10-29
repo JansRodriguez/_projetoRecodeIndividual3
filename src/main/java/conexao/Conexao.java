@@ -4,7 +4,7 @@ package conexao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class conexao {
+public class Conexao {
 
 	// nome do usário do mysql
 		private static final String USERNAME = "root";

@@ -1,6 +1,6 @@
 package model;
 
-public class contato_reclamacao {
+public class ContatoReclamacao {
 		
 		private int IdContatoReclamacao;
 		private String email;
